@@ -2,7 +2,6 @@ function playBot(){
   let botNum = Math.floor(Math.random() * 100);
   let count = 1;
   ask();
-console.dir(ask);
   function ask(){
     let userNum = prompt('Введите число от 1 до 100:');
     if (userNum === null) {
