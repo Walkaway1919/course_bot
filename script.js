@@ -1,6 +1,5 @@
 function playBot(){
   let botNum = Math.floor(Math.random() * 100);
-  console.dir( ask );
   ask();
 
   function ask(){
